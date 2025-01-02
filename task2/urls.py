@@ -5,3 +5,6 @@ urlpatterns = [
     path('', function_view),
     path('classt/', ClassView.as_view()),
 ]
+
+
+
