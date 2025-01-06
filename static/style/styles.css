@@ -1,55 +1,54 @@
 body {
-    background-color: silver; /* Серебряный фон */
-    font-family: Arial, sans-serif; /* Шрифт */
+    background-color: silver;
+    font-family: Arial, sans-serif;
 }
 
 .nav {
-    margin-bottom: 20px; /* Отступ снизу для навигации */
+    margin-bottom: 20px;
 }
 
 h1 {
-    color: #8c6d3d; /* Цвет заголовка */
+    color: #8c6d3d;
 }
 
 .nav-link {
-    color: #8c6d3d; /* Цвет ссылок навигации */
+    color: #8c6d3d;
 }
 
 .nav-link:hover {
-    color: #6b4f2b; /* Цвет ссылок при наведении */
+    color: #6b4f2b;
 }
 
 .btn-primary {
-    background-color: #8c6d3d; /* Цвет фона для кнопки первичного действия */
-    border: none; /* Убираем границу */
-    color: black; /* Цвет текста */
-    padding: 10px 20px; /* Отступы для кнопки */
-    text-decoration: none; /* Убираем подчеркивание для ссылки */
+    background-color: #8c6d3d;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
-    background-color: #8c6d3d; /* Оставляем тот же цвет при наведении */
+    background-color: #8c6d3d;
 }
 
 .btn-back {
-    background-color: #8c6d3d; /* Цвет фона для кнопки "Назад на главную" */
-    color: black; /* Цвет текста на кнопке */
-    border: 2px solid #8c6d3d; /* Добавляем границу */
-    padding: 10px 20px; /* Отступы для кнопки */
-    text-decoration: none; /* Убираем подчеркивание для ссылки */
-    position: relative; /* или absolute */
-    top: 20px; /* Опустит кнопку на 20 пикселей вниз */
+    background-color: #8c6d3d;
+    color: black;
+    border: 2px solid #8c6d3d;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative; /
+    top: 20px;
 }
 
 
-/* Убираем эффект наведения для кнопки "Назад на главную" */
 .btn-back:hover {
     color: white;
-    background-color: #6b4f2b; /* Оставляем тот же цвет при наведении */
-    text-decoration: none; /* Убираем подчеркивание для ссылки */
+    background-color: #6b4f2b;
+    text-decoration: none;
 }
 
 .mak-cards-description {
-    font-size: 20px; /* Установите нужный размер шрифта */
-    line-height: 1.5; /* Высота строки для лучшей читабельности */
+    font-size: 20px;
+    line-height: 1.5;
 }
