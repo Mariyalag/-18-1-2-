@@ -17,15 +17,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from task4 import views
+from task5 import views
+from task5.views import sign_up_by_django, sign_up_by_html
+
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('task2.urls')),
-    path('', views.home, name='home'),
-    path('cards/', views.cards, name='cards'),
-    path('contact/', views.contact, name='contact'),
-    path('testimonials/', views.testimonials, name='testimonials'),
-    path('blog/', views.blog, name='blog'),
+    # path('', views.home, name='home'),
+    # path('cards/', views.cards, name='cards'),
+    # path('contact/', views.contact, name='contact'),
+    # path('testimonials/', views.testimonials, name='testimonials'),
+    # path('blog/', views.blog, name='blog'),
+    path('', sign_up_by_django, name='sign_up_django'),
+    path('django_sign_up/', sign_up_by_html, name='sign_up_html'),
 ]
 
