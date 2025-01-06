@@ -1,0 +1,55 @@
+body {
+    background-color: silver; /* Серебряный фон */
+    font-family: Arial, sans-serif; /* Шрифт */
+}
+
+.nav {
+    margin-bottom: 20px; /* Отступ снизу для навигации */
+}
+
+h1 {
+    color: #8c6d3d; /* Цвет заголовка */
+}
+
+.nav-link {
+    color: #8c6d3d; /* Цвет ссылок навигации */
+}
+
+.nav-link:hover {
+    color: #6b4f2b; /* Цвет ссылок при наведении */
+}
+
+.btn-primary {
+    background-color: #8c6d3d; /* Цвет фона для кнопки первичного действия */
+    border: none; /* Убираем границу */
+    color: black; /* Цвет текста */
+    padding: 10px 20px; /* Отступы для кнопки */
+    text-decoration: none; /* Убираем подчеркивание для ссылки */
+}
+
+.btn-primary:hover {
+    background-color: #8c6d3d; /* Оставляем тот же цвет при наведении */
+}
+
+.btn-back {
+    background-color: #8c6d3d; /* Цвет фона для кнопки "Назад на главную" */
+    color: black; /* Цвет текста на кнопке */
+    border: 2px solid #8c6d3d; /* Добавляем границу */
+    padding: 10px 20px; /* Отступы для кнопки */
+    text-decoration: none; /* Убираем подчеркивание для ссылки */
+    position: relative; /* или absolute */
+    top: 20px; /* Опустит кнопку на 20 пикселей вниз */
+}
+
+
+/* Убираем эффект наведения для кнопки "Назад на главную" */
+.btn-back:hover {
+    color: white;
+    background-color: #6b4f2b; /* Оставляем тот же цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание для ссылки */
+}
+
+.mak-cards-description {
+    font-size: 20px; /* Установите нужный размер шрифта */
+    line-height: 1.5; /* Высота строки для лучшей читабельности */
+}
